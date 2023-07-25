@@ -1,4 +1,4 @@
-#MySQL "Cars" Flask App
+#MySQL "Cars" Flask App#
 The MySQL "Cars" Flask App is a simple web application that allows users to manage a collection of cars. It utilizes Flask, a Python web framework, and MySQL as the database to store car data.
 
 #Features
@@ -8,7 +8,7 @@ Edit the details of an existing car.
 Delete a car from the database.
 Getting Started
 Prerequisites
-#Before running the app, make sure you have the following installed:
+#Before running the app, make sure you have the following installed:#
 
 Python (version 3.6 or higher)
 MySQL database server
@@ -31,7 +31,7 @@ Create a table named cars with columns: id (INT, primary key, auto-increment), m
 );
 ```
 
-#Usage
+#Usage#
 View the list of cars by visiting the homepage (/ or /cars).
 To add a new car, click the "Add Car" button on the homepage, fill in the car details in the form, and submit it.
 To edit a car's details, click the "Edit" link next to the car you wish to modify, update the details in the form, and submit the changes.
