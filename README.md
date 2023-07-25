@@ -16,6 +16,7 @@ Pip (Python package manager)
 
 Install the required packages:
 ```pip install -r requirements.txt```
+Change the sql password 
 
 Create a MySQL database:
 
