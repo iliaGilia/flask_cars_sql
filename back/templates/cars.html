@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cars Data</title>
+</head>
+<body>
+    <h1>List of Cars</h1>
+    <table>
+        <tr>
+            <th>Car ID</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <!-- Add more columns as needed -->
+        </tr>
+        {% for car in cars %}
+        <tr>
+            <td>{{ car[0] }}</td>
+            <td>{{ car[1] }}</td>
+            <td>{{ car[2] }}</td>
+            <td>{{ car[3] }}</td>
+            <!-- Add more columns as needed -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

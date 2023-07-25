@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }} Car</h1>
+    <form method="POST" action="{{ action }}">
+        <label for="color">color:</label>
+        <input type="text" name="color" id="color" value="{{ car.color if car else '' }}"><br>
+
+        <label for="model">Model:</label>
+        <input type="text" name="model" id="model" value="{{ car.model if car else '' }}"><br>
+
+        <label for="year">Year:</label>
+        <input type="text" name="year" id="year" value="{{ car.year if car else '' }}"><br>
+
+        <input type="submit" value="{{ button_text }}">
+    </form>
+</body>
+</html>
